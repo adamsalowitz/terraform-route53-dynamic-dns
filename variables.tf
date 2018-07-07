@@ -7,13 +7,9 @@ variable "my_route53_zone_id" {
   type    = "string"
   default = "Z20NBA4QJSYPCC"
 }
-variable "my_hostname" {
+variable "my_fqdn" {
   type    = "string"
-  default = "dynamic"
-}
-variable "my_domain" {
-  type    = "string"
-  default = "detwah.com"
+  default = "dynamic.detwah.com"
 }
 variable "my_ip" {
   type    = "string"
