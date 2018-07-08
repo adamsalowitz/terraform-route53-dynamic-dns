@@ -5,13 +5,10 @@ provider "aws" {
 
 variable "my_route53_zone_id" {
   type    = "string"
-  default = "Z20NBA4QJSYPCC"
+  default = "***************"
 }
 variable "my_fqdn" {
   type    = "string"
-  default = "dynamic.detwah.com"
+  default = "hostname.domain.com"
 }
-variable "my_ip" {
-  type    = "string"
-  default = "35.128.12.117"
-}
+variable "myip" {} # See https://www.terraform.io/docs/configuration/variables.html#environment-variables
