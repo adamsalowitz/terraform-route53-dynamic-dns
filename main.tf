@@ -3,5 +3,5 @@ resource "aws_route53_record" "dynamic_my_ip" {
   name    = "${var.my_fqdn}"
   type    = "A"
   ttl     = "300"
-  records = ["${var.my_ip}"]
+  records = ["${var.myip}"]
 }
