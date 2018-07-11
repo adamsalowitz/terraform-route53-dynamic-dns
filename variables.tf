@@ -1,14 +1,22 @@
 provider "aws" {
-  version = "~> 1.23"
+  version = "~> 1.27"
   region = "us-east-1"
+}
+
+provider "http" {
+  version = "~> 1.0"
+}
+
+variable "external_url" {
+  type 	  = "string"
+  default = "http://ipv4.icanhazip.com"
 }
 
 variable "my_route53_zone_id" {
   type    = "string"
-  default = "***************"
+  default = "**************"
 }
 variable "my_fqdn" {
   type    = "string"
   default = "hostname.domain.com"
 }
-variable "myip" {} # See https://www.terraform.io/docs/configuration/variables.html#environment-variables
