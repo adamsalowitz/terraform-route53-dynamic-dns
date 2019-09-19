@@ -32,7 +32,7 @@ aws_secret_access_key = "****************************************"
 **Clone the Repo**
 
 ```
-git clone git@github.com:wutangfinancial/terraform-route53-dynamic-dns.git
+git clone git@github.com:adamsalowitz/terraform-route53-dynamic-dns.git
 cd terraform-route53-dynamic-dns
 ```
 
@@ -49,7 +49,7 @@ terraform apply
 
 ## Author
 
-- [Adam Salowitz](https://github.com/wutangfinancial)
+- [Adam Salowitz](https://github.com/adamsalowitz)
 
 ## No Support
 
